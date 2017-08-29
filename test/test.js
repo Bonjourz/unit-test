@@ -53,6 +53,20 @@ describe('Calculate2', function() {
     });
 });
 
+describe('test ce', function() {
+
+    describe('Calculate2', function () {
+        it('it should be 9', function () {
+            ac();
+            enter("(1+2)*3");
+            ce();
+            expect(display).toBe("(1+2)*");
+        })
+    });
+});
+
+
+
 
 
 

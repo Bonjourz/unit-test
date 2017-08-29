@@ -34,7 +34,7 @@ module.exports = function(config) {
     // available reporters: https://npmjs.org/browse/keyword/karma-reporter
     reporters: ['progress', 'coverage'],
 
-    preprocessors: {'src/index.js': 'coverage'
+    preprocessors: {'src/lab1.js': 'coverage'
     },
 
     // web server port
