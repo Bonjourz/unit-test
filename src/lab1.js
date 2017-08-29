@@ -39,7 +39,6 @@ function ac() {
 }
 
 function equal() {
-    display = "";
     result = expression();
     $('#display').html(result);
 }
@@ -183,7 +182,6 @@ function expression() {
         switch (t.getKind()) {
             case '+':
                 left += parseFloat(term());	//evaluate Term and add
-                console.log(left);
                 t = get();
                 break;
 
